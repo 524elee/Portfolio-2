@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+	<!-- Font Awesome Stylesheet Link -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"
+		crossorigin="anonymous"></script>
+	<!-- My css is in its own folder along with all my image assets -->
+	<link rel="stylesheet" href="/css/style.css">
+	<!-- This is the code for how to change the logo of your website on the tab -->
+	<link rel="icon" type="image/x-icon" href="/assets/logo-nameless.png" />
+	<title>Evan's Portfolio</title>
+</head>
+
+<body>
+	<div class="container-fluid">
+		<div class="container">
+			<div class="filler" id="top"></div>
+			<nav class="topnav navbar navbar-expand-md bg-black fixed-top">
+				<img src="/assets/logo-nameless.png" height="50px" width="50px">
+				<!-- Each span tag with the fontChange1 or fontChange2 class are the texts with the weird accent boxes -->
+				<p class="navbar-brand text-white mt-auto mb-auto">Ev<span class="fontChange1">a</span>n Lee</p>
+				<button class="navbar-toggler bg-white fontChange1" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<!-- The navbar scrolls down to the skills and projects scetions but switches to a different page for the Resume button -->
+					<div class="navbar-nav">
+						<a class="nav-link text-white" href="#top"><span class="fontChange1">H</span>ome</a>
+						<a class="nav-link text-white" href="#skills">Skil<span class="fontChange1">l</span>s</a>
+						<a class="nav-link text-white" href="#projects">Pr<span class="fontChange1">o</span>jects</a>
+						<a class="nav-link text-white" href="#resume">Res<span class="fontChange1">u</span>me</a>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<br>
+		<div class="row d-flex justify-content-evenly m-0 sidefix">
+			<div class="col-md-6">
+				<br>
+				<center><img src="/assets/self.png" height="270.1px" width="237.6px">
+				</center>
+				<br>
+				<br>
+				<center>
+					<h1><span class="fontChange2">Ev</span>an Lee
+						<hr>
+						Web Developer | Gr<span class="fontChange2">a</span>phic Desig<span class="fontChange2">n</span>er
+					</h1>
+					<br>
+					<h5>He does what he wants.</h5>
+					<hr>
+				</center>
+			</div>
+			<div class="col-md-5 feat header">
+				<br>
+				<!-- About Section instead of a whole Page -->
+				<h1 class="header text-center">Abo<span class="fontChange1">u</span>t <i class="fa-solid fa-user-pen"></i></h1>
+				<br>
+				<h4 class="header text-center">Evan Lee is currently a junior in Marlboro High School. He is in the Web Design
+					Pathway program along with his friends. He is an avid web developer and graphic designer. Evan enjoys playing
+					video games, folding origami, and playing piano. He also has a wide range of music taste that helps him create
+					and edit videos. He worked as a lifeguard during the summer of 2022 and is a part of several clubs including,
+					the Asian Club, LEO Club, and the Marlboro Investment Academy. He is also a Teacher's Assistant for the
+					Cantonese Kindergarden Class 1 at MFCS.
+				</h4>
+				<br>
+				<h1 class="text-center header"><u><a href="#resume" class="a header"><i class="fas fa-star"></i> Res<span
+								class="fontChange1">u</span>me <i class="fas fa-star"></i></a></u>
+				</h1>
+				<br>
+			</div>
+		</div>
+		<!-- Custom css divider with Font Awesome crossbones icon in the middle -->
+		<div class="divider-custom divider-light">
+			<div class="divider-custom-line"></div>
+			<div class="divider-custom-icon" id="skills">
+				<h1><i class="fa-solid fa-skull-crossbones"></i></h1>
+			</div>
+			<div class="divider-custom-line"></div>
+		</div>
+
+		<div class="row d-flex justify-content-evenly header sidefix">
+			<!-- Skills Section instead of a skills page -->
+
+			<h1 class="header text-center"><i class="fa-solid fa-gears"></i> Skil<span class="fontChange2">l</span>s <i
+					class="fa-solid fa-gears"></i>
+			</h1>
+			<br>
+			<div class="col-md-3 feat header">
+				<center>
+					<br>
+					<h4>Known Lan<span span class="fontChange1">g</span>uages</h4>
+					<img src="/assets/knownlang.png" height="150px" width="150px" style="margin-top:5px">
+				</center>
+				<br>
+				<center>
+					<br>
+					<h4>Python</h4>
+					<br>
+					<h4>HTML</h4>
+					<br>
+					<h4>CSS</h4>
+					<br>
+					<h4>Javascript</h4>
+					<br>
+				</center>
+			</div>
+			<br>
+			<div class="col-md-3 feat header">
+				<center>
+					<br>
+					<h4>D<span class="fontChange1">e</span>veloper Tools</h4>
+					<img src="/assets/devtools.png" height="150px" width="150px" style="margin-top:5px">
+				</center>
+				<br>
+				<center>
+					<br>
+					<h4>CodeHS / CodeSandbox</h4>
+					<br>
+					<h4>CodeAcademy</h4>
+					<br>
+					<h4>Replit</h4>
+					<br>
+					<h4>GitHub</h4>
+					<br>
+					<h4>Adobe Photoshop</h4>
+					<br>
+					<h4>Filmora</h4>
+					<br>
+				</center>
+			</div>
+			<br>
+			<div class="col-md-3 feat header">
+				<center>
+					<br>
+					<h4>E<span class="fontChange1">x</span>perience</h4>
+					<img src="/assets/expert.png" height="150px" width="150px" style="margin-top:5px">
+				</center>
+				<br>
+				<!-- by the end of this year -->
+				<center>
+					<br>
+					<h4>2 Years of Web Design</h4>
+					<br>
+					<h4>1 Year of Graphic Design</h4>
+					<br>
+					<h4>1 Year of Computer Science</h4>
+				</center>
+			</div>
+		</div>
+		<div class="divider-custom divider-light">
+			<div class="divider-custom-line"></div>
+			<div class="divider-custom-icon">
+				<h1 id="projects"><i class="fa-solid fa-skull-crossbones"></i></h1>
+			</div>
+			<div class="divider-custom-line"></div>
+		</div>
+		<div class="row d-flex justify-content-evenly header sidefix">
+			<!-- Projects section instead of a page -->
+			<h1 class="header text-center"><i class="fa-solid fa-box-archive"></i> Pro<span
+					class="fontChange2 pl-2">j</span>ects
+				<a href="notAvail.html" class="header a"><i class="fa-solid fa-dumpster-fire"></i></a>
+			</h1>
+			<br>
+			<div class="col-md-3 feat header">
+				<center>
+					<a href="https://annabelle-project.evanl6.repl.co/" class="scp" target="_blank"><img
+							src="/assets/annabelle.png" height="216.67px" width="300px" alt="Annabelle" class="img-fluid">
+						<div class="middle">
+							<div class="text">Annabelle</div>
+						</div>
+					</a>
+				</center>
+			</div>
+			<br>
+			<div class="col-md-3 feat header">
+				<center>
+					<a href="https://Resizer.evanl6.repl.co" class="scp" target="_blank"><img src="/assets/ghost.png"
+							height="216.67px" width="300px" alt="CSS Ghost" class="img-fluid">
+						<div class="middle">
+							<div class="text">CSS Ghost</div>
+						</div>
+					</a>
+				</center>
+			</div>
+			<br>
+			<div class="col-md-3 feat header">
+				<center>
+					<a href="https://pupoccino-3513413.codehs.me/index.html" class="scp" target="_blank"><img
+							src="/assets/pupper.png" height="216.67px" width="300px" alt="Puppuccino" class="img-fluid">
+						<div class="middle">
+							<div class="text">Puppuccino</div>
+						</div>
+					</a>
+				</center>
+			</div>
+		</div>
+		<div class="row d-flex justify-content-evenly header sidefix">
+			<hr>
+			<hr>
+			<div class="col-md-3 feat header">
+				<center>
+					<a href="https://khhi9n.csb.app/" class="scp" target="_blank"><img src="/assets/colors.png" height="216.67px"
+							width="300px" alt="Colors Website" class="img-fluid">
+						<div class="middle">
+							<div class="text">Colors Website</div>
+						</div>
+					</a>
+				</center>
+			</div>
+			<br>
+			<div class="col-md-3 feat header">
+				<center>
+					<a href="https://31s3ci.csb.app/" class="scp" target="_blank"><img src="/assets/logo-one.png"
+							height="216.67px" width="300px" alt="Year One Portfolio" class="img-fluid">
+						<div class="middle">
+							<div class="text">Year One Portfolio</div>
+						</div>
+					</a>
+				</center>
+			</div>
+			<br>
+			<div class="col-md-3 feat header">
+				<center>
+					<a href="notAvail.html" class="scp"><img src="/assets/NA.png" height="216.67px" width="300px"
+							alt="Not Available" class="img-fluid">
+						<div class="middle">
+							<div class="text">Not Available</div>
+						</div>
+					</a>
+				</center>
+			</div>
+		</div>
+		<div class=" divider-custom divider-light" id="resume">
+			<div class="divider-custom-line"></div>
+			<div class="divider-custom-icon">
+				<h1><i class="fa-solid fa-skull-crossbones"></i></h1>
+			</div>
+			<div class="divider-custom-line"></div>
+		</div>
+
+		<div class="row d-flex justify-content-evenly header sidefix">
+			<!-- Projects section instead of a page -->
+			<h1 class="header text-center"><i class="fa-solid fa-file-lines"></i> Res<span class="fontChange2">u</span>me <i
+					class="fa-solid fa-file-lines"></i></h1>
+			<br>
+		</div>
+		<div class="row-md-9 d-flex justify-content-evenly">
+			<iframe width="1350px" height="1135px" src="/assets/resume.pdf"></iframe>
+		</div>
+		<div class=" divider-custom divider-light">
+			<div class="divider-custom-line"></div>
+			<div class="divider-custom-icon">
+				<h1><i class="fa-solid fa-skull-crossbones"></i></h1>
+			</div>
+			<div class="divider-custom-line"></div>
+		</div>
+	</div>
+	<footer class="footer">
+		<h1>Co<span class="fontChange1">n</span>tact Me : elee8<span class="fontChange1">2</span>3@gmail.com |
+			(205) 661-<span class="fontChange1">6</span>102</h1>
+	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
